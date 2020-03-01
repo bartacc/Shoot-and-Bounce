@@ -1,0 +1,740 @@
+
+sprites.pack.png
+size: 2048,2048
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+audioOff
+  rotate: false
+  xy: 1799, 236
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+audioOn
+  rotate: false
+  xy: 1799, 134
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+bullet-blue-big
+  rotate: false
+  xy: 761, 8
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+bullet-blue-medium
+  rotate: false
+  xy: 1903, 2
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+bullet-blue-small
+  rotate: false
+  xy: 1566, 1330
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+bullet-green-big
+  rotate: false
+  xy: 827, 8
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+bullet-green-medium
+  rotate: false
+  xy: 1953, 2
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+bullet-green-small
+  rotate: false
+  xy: 1600, 1330
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+bullet-purple-big
+  rotate: false
+  xy: 893, 8
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+bullet-purple-medium
+  rotate: false
+  xy: 254, 2
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+bullet-purple-small
+  rotate: false
+  xy: 1634, 1330
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+bullet-red-big
+  rotate: false
+  xy: 959, 8
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+bullet-red-medium
+  rotate: false
+  xy: 304, 2
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+bullet-red-small
+  rotate: false
+  xy: 1668, 1330
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+button-about-clicked
+  rotate: false
+  xy: 2, 1671
+  size: 500, 375
+  orig: 500, 375
+  offset: 0, 0
+  index: -1
+button-about-normal
+  rotate: false
+  xy: 2, 1294
+  size: 500, 375
+  orig: 500, 375
+  offset: 0, 0
+  index: -1
+button-achievements-clicked
+  rotate: false
+  xy: 504, 1671
+  size: 500, 375
+  orig: 500, 375
+  offset: 0, 0
+  index: -1
+button-achievements-normal
+  rotate: false
+  xy: 2, 917
+  size: 500, 375
+  orig: 500, 375
+  offset: 0, 0
+  index: -1
+button-back-clicked
+  rotate: false
+  xy: 1766, 1498
+  size: 250, 267
+  orig: 250, 267
+  offset: 0, 0
+  index: -1
+button-back-normal
+  rotate: false
+  xy: 772, 332
+  size: 250, 267
+  orig: 250, 267
+  offset: 0, 0
+  index: -1
+button-buy-clicked
+  rotate: false
+  xy: 504, 1503
+  size: 500, 166
+  orig: 500, 166
+  offset: 0, 0
+  index: -1
+button-buy-normal
+  rotate: false
+  xy: 1006, 1880
+  size: 500, 166
+  orig: 500, 166
+  offset: 0, 0
+  index: -1
+button-buy-unActive
+  rotate: false
+  xy: 2, 749
+  size: 500, 166
+  orig: 500, 166
+  offset: 0, 0
+  index: -1
+button-continue-clicked
+  rotate: false
+  xy: 504, 869
+  size: 256, 296
+  orig: 256, 296
+  offset: 0, 0
+  index: -1
+button-continue-normal
+  rotate: false
+  xy: 762, 869
+  size: 256, 296
+  orig: 256, 296
+  offset: 0, 0
+  index: -1
+button-equip-clicked
+  rotate: false
+  xy: 504, 1335
+  size: 500, 166
+  orig: 500, 166
+  offset: 0, 0
+  index: -1
+button-equip-normal
+  rotate: false
+  xy: 1006, 1712
+  size: 500, 166
+  orig: 500, 166
+  offset: 0, 0
+  index: -1
+button-equip-unActive
+  rotate: false
+  xy: 1508, 1767
+  size: 500, 111
+  orig: 500, 111
+  offset: 0, 0
+  index: -1
+button-menu-clicked-white
+  rotate: false
+  xy: 1508, 1509
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+button-menu-normal-white
+  rotate: false
+  xy: 767, 74
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+button-no-clicked
+  rotate: false
+  xy: 1508, 1880
+  size: 500, 166
+  orig: 500, 166
+  offset: 0, 0
+  index: -1
+button-no-normal
+  rotate: false
+  xy: 2, 581
+  size: 500, 166
+  orig: 500, 166
+  offset: 0, 0
+  index: -1
+button-pause
+  rotate: false
+  xy: 1846, 787
+  size: 128, 127
+  orig: 128, 127
+  offset: 0, 0
+  index: -1
+button-pause-clicked
+  rotate: false
+  xy: 1798, 657
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+button-rankings-clicked
+  rotate: false
+  xy: 254, 52
+  size: 247, 185
+  orig: 247, 185
+  offset: 0, 0
+  index: -1
+button-rankings-normal
+  rotate: false
+  xy: 2, 49
+  size: 250, 188
+  orig: 250, 188
+  offset: 0, 0
+  index: -1
+button-restart-clicked
+  rotate: false
+  xy: 504, 601
+  size: 256, 266
+  orig: 256, 266
+  offset: 0, 0
+  index: -1
+button-restart-clicked-white
+  rotate: false
+  xy: 762, 601
+  size: 256, 266
+  orig: 256, 266
+  offset: 0, 0
+  index: -1
+button-restart-normal
+  rotate: false
+  xy: 1020, 995
+  size: 256, 266
+  orig: 256, 266
+  offset: 0, 0
+  index: -1
+button-restart-normal-white
+  rotate: false
+  xy: 1020, 727
+  size: 256, 266
+  orig: 256, 266
+  offset: 0, 0
+  index: -1
+button-share-clicked
+  rotate: false
+  xy: 515, 176
+  size: 250, 255
+  orig: 250, 255
+  offset: 0, 0
+  index: -1
+button-share-normal
+  rotate: false
+  xy: 1541, 329
+  size: 250, 255
+  orig: 250, 255
+  offset: 0, 0
+  index: -1
+button-yes-clicked
+  rotate: false
+  xy: 504, 1167
+  size: 500, 166
+  orig: 500, 166
+  offset: 0, 0
+  index: -1
+button-yes-normal
+  rotate: false
+  xy: 1006, 1544
+  size: 500, 166
+  orig: 500, 166
+  offset: 0, 0
+  index: -1
+coin-1
+  rotate: false
+  xy: 1283, 18
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+coin-2
+  rotate: false
+  xy: 1335, 18
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+coin-3
+  rotate: false
+  xy: 1387, 18
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+coin-4
+  rotate: false
+  xy: 1439, 18
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+coin-5
+  rotate: false
+  xy: 1988, 1316
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+coin-6
+  rotate: false
+  xy: 1988, 1264
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+enemy-trail-blue-left
+  rotate: false
+  xy: 514, 433
+  size: 256, 166
+  orig: 256, 166
+  offset: 0, 0
+  index: -1
+enemy-trail-blue-mid
+  rotate: false
+  xy: 1025, 43
+  size: 256, 166
+  orig: 256, 166
+  offset: 0, 0
+  index: -1
+enemy-trail-blue-right
+  rotate: false
+  xy: 503, 8
+  size: 256, 166
+  orig: 256, 166
+  offset: 0, 0
+  index: -1
+enemy-trail-red-left
+  rotate: false
+  xy: 1330, 844
+  size: 256, 166
+  orig: 256, 166
+  offset: 0, 0
+  index: -1
+enemy-trail-red-mid
+  rotate: false
+  xy: 1711, 1330
+  size: 256, 166
+  orig: 256, 166
+  offset: 0, 0
+  index: -1
+exit
+  rotate: false
+  xy: 1006, 1263
+  size: 300, 279
+  orig: 300, 279
+  offset: 0, 0
+  index: -1
+faded-background
+  rotate: false
+  xy: 1969, 1368
+  size: 62, 62
+  orig: 62, 62
+  offset: 0, 0
+  index: -1
+game-changers-button-clicked
+  rotate: false
+  xy: 2, 318
+  size: 511, 77
+  orig: 511, 77
+  offset: 0, 0
+  index: -1
+game-changers-button-normal
+  rotate: false
+  xy: 2, 239
+  size: 511, 77
+  orig: 511, 77
+  offset: 0, 0
+  index: -1
+gameChanger-big
+  rotate: false
+  xy: 1024, 469
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+gameChanger-bouncingOffWalls
+  rotate: false
+  xy: 1025, 211
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+gameChanger-lowGravity
+  rotate: false
+  xy: 1330, 1012
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+gameChanger-normal
+  rotate: false
+  xy: 1282, 586
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+gameChanger-reversedGravity
+  rotate: false
+  xy: 1283, 328
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+gameChanger-small
+  rotate: false
+  xy: 1283, 70
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+how-to-play-button-clicked
+  rotate: false
+  xy: 2, 489
+  size: 510, 90
+  orig: 510, 90
+  offset: 0, 0
+  index: -1
+how-to-play-button-normal
+  rotate: false
+  xy: 2, 397
+  size: 510, 90
+  orig: 510, 90
+  offset: 0, 0
+  index: -1
+metal-broken-left
+  rotate: false
+  xy: 1798, 572
+  size: 128, 83
+  orig: 128, 83
+  offset: 0, 0
+  index: -1
+metal-broken-mid
+  rotate: false
+  xy: 1541, 6
+  size: 128, 82
+  orig: 128, 82
+  offset: 0, 0
+  index: -1
+metal-broken-right
+  rotate: false
+  xy: 1671, 5
+  size: 128, 83
+  orig: 128, 83
+  offset: 0, 0
+  index: -1
+metal3-left
+  rotate: false
+  xy: 1916, 392
+  size: 128, 83
+  orig: 128, 83
+  offset: 0, 0
+  index: -1
+metal3-mid
+  rotate: false
+  xy: 1904, 307
+  size: 128, 83
+  orig: 128, 83
+  offset: 0, 0
+  index: -1
+metal3-right
+  rotate: false
+  xy: 1901, 222
+  size: 128, 83
+  orig: 128, 83
+  offset: 0, 0
+  index: -1
+metal4-left
+  rotate: false
+  xy: 1901, 137
+  size: 128, 83
+  orig: 128, 83
+  offset: 0, 0
+  index: -1
+metal4-right
+  rotate: false
+  xy: 1903, 52
+  size: 128, 83
+  orig: 128, 83
+  offset: 0, 0
+  index: -1
+musicOff
+  rotate: false
+  xy: 1801, 32
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+musicOn
+  rotate: false
+  xy: 1928, 685
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+particle
+  rotate: false
+  xy: 2010, 2014
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+scroll
+  rotate: false
+  xy: 1278, 861
+  size: 50, 400
+  orig: 50, 400
+  offset: 0, 0
+  index: -1
+shop-button-background
+  rotate: false
+  xy: 1540, 586
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+splash-blue
+  rotate: false
+  xy: 1308, 1270
+  size: 256, 237
+  orig: 256, 237
+  offset: 0, 0
+  index: -1
+splash-green
+  rotate: false
+  xy: 1541, 90
+  size: 256, 237
+  orig: 256, 237
+  offset: 0, 0
+  index: -1
+splash-purple
+  rotate: false
+  xy: 1588, 1091
+  size: 256, 237
+  orig: 256, 237
+  offset: 0, 0
+  index: -1
+splash-red
+  rotate: false
+  xy: 1588, 852
+  size: 256, 237
+  orig: 256, 237
+  offset: 0, 0
+  index: -1
+text-background
+  rotate: false
+  xy: 1928, 583
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+touch-1
+  rotate: false
+  xy: 1969, 1432
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+touch-2
+  rotate: false
+  xy: 1916, 477
+  size: 93, 93
+  orig: 93, 93
+  offset: 0, 0
+  index: -1
+touch-3
+  rotate: false
+  xy: 1793, 338
+  size: 109, 109
+  orig: 109, 109
+  offset: 0, 0
+  index: -1
+touch-4
+  rotate: false
+  xy: 1793, 449
+  size: 121, 121
+  orig: 121, 121
+  offset: 0, 0
+  index: -1
+touch-5
+  rotate: false
+  xy: 1846, 916
+  size: 131, 131
+  orig: 131, 131
+  offset: 0, 0
+  index: -1
+touch-6
+  rotate: false
+  xy: 1846, 1049
+  size: 137, 137
+  orig: 137, 137
+  offset: 0, 0
+  index: -1
+touch-7
+  rotate: false
+  xy: 1846, 1188
+  size: 140, 140
+  orig: 140, 140
+  offset: 0, 0
+  index: -1
+touch-8
+  rotate: false
+  xy: 1566, 1364
+  size: 143, 143
+  orig: 143, 143
+  offset: 0, 0
+  index: -1
+
+sprites.pack2.png
+size: 2048,256
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+enemy-trail-red-right
+  rotate: false
+  xy: 2, 87
+  size: 256, 166
+  orig: 256, 166
+  offset: 0, 0
+  index: -1
+metal-start-left
+  rotate: false
+  xy: 260, 87
+  size: 256, 166
+  orig: 256, 166
+  offset: 0, 0
+  index: -1
+metal-start-mid
+  rotate: false
+  xy: 776, 88
+  size: 256, 165
+  orig: 256, 165
+  offset: 0, 0
+  index: -1
+metal-start-right
+  rotate: false
+  xy: 518, 87
+  size: 256, 166
+  orig: 256, 166
+  offset: 0, 0
+  index: -1
+metal4-mid
+  rotate: false
+  xy: 392, 3
+  size: 128, 82
+  orig: 128, 82
+  offset: 0, 0
+  index: -1
+snow-broken-left
+  rotate: false
+  xy: 2, 2
+  size: 128, 83
+  orig: 128, 83
+  offset: 0, 0
+  index: -1
+snow-broken-mid
+  rotate: false
+  xy: 1034, 170
+  size: 128, 83
+  orig: 128, 83
+  offset: 0, 0
+  index: -1
+snow-broken-right
+  rotate: false
+  xy: 132, 2
+  size: 128, 83
+  orig: 128, 83
+  offset: 0, 0
+  index: -1
+snow-left
+  rotate: false
+  xy: 1164, 170
+  size: 128, 83
+  orig: 128, 83
+  offset: 0, 0
+  index: -1
+snow-mid
+  rotate: false
+  xy: 262, 2
+  size: 128, 83
+  orig: 128, 83
+  offset: 0, 0
+  index: -1
+snow-right
+  rotate: false
+  xy: 1294, 170
+  size: 128, 83
+  orig: 128, 83
+  offset: 0, 0
+  index: -1

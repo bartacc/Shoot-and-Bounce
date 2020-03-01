@@ -1,0 +1,160 @@
+import com.badlogic.gdx.tools.texturepacker.TexturePacker
+
+buildscript {
+    repositories {
+        mavenCentral()
+        maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
+        jcenter()
+        google()
+    }
+    dependencies {
+        //classpath 'de.richsource.gradle.plugins:gwt-gradle-plugin:0.6'
+        classpath 'com.android.tools.build:gradle:3.2.1'
+        //classpath 'com.google.gms:google-services:3.0.0'
+        classpath 'org.robovm:robovm-gradle-plugin:1.8.0'
+        classpath "com.badlogicgames.gdx:gdx-tools:1.9.3"
+    }
+}
+
+allprojects {
+    apply plugin: "eclipse"
+    apply plugin: "idea"
+
+    version = '1.0'
+    ext {
+        appName = "jumpGame"
+        gdxVersion = '1.9.4'
+        roboVMVersion = '1.8.0'
+        box2DLightsVersion = '1.4'
+        ashleyVersion = '1.6.0'
+        aiVersion = '1.6.0'
+    }
+
+    repositories {
+        mavenCentral()
+        jcenter()
+        maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
+        maven { url "https://oss.sonatype.org/content/repositories/releases/" }
+        google()
+    }
+}
+
+project(":desktop") {
+    apply plugin: "java"
+
+
+    dependencies {
+        implementation project(":core")
+        implementation "com.badlogicgames.gdx:gdx-backend-lwjgl:$gdxVersion"
+        implementation "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-desktop"
+        implementation "com.badlogicgames.gdx:gdx-tools:$gdxVersion"
+        implementation "com.badlogicgames.gdx:gdx-freetype-platform:$gdxVersion:natives-desktop"
+        implementation "com.badlogicgames.gdx:gdx-box2d-platform:$gdxVersion:natives-desktop"
+    }
+}
+
+project(":android") {
+    apply plugin: "android"
+
+    configurations { natives }
+
+    dependencies {
+        implementation project(":core")
+        implementation "com.badlogicgames.gdx:gdx-backend-android:$gdxVersion"
+        natives "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-armeabi"
+        natives "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-armeabi-v7a"
+        natives "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-x86"
+        // NEW x64 support
+        natives "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-arm64-v8a"
+        natives "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-x86_64"
+        implementation "com.badlogicgames.gdx:gdx-freetype:$gdxVersion"
+        natives "com.badlogicgames.gdx:gdx-freetype-platform:$gdxVersion:natives-armeabi"
+        natives "com.badlogicgames.gdx:gdx-freetype-platform:$gdxVersion:natives-armeabi-v7a"
+        natives "com.badlogicgames.gdx:gdx-freetype-platform:$gdxVersion:natives-x86"
+        // NEW x64 support
+        natives "com.badlogicgames.gdx:gdx-freetype-platform:$gdxVersion:natives-arm64-v8a"
+        natives "com.badlogicgames.gdx:gdx-freetype-platform:$gdxVersion:natives-x86_64"
+        implementation "com.badlogicgames.gdx:gdx-box2d:$gdxVersion"
+        natives "com.badlogicgames.gdx:gdx-box2d-platform:$gdxVersion:natives-armeabi"
+        natives "com.badlogicgames.gdx:gdx-box2d-platform:$gdxVersion:natives-armeabi-v7a"
+        natives "com.badlogicgames.gdx:gdx-box2d-platform:$gdxVersion:natives-x86"
+        // NEW x64 support
+        natives "com.badlogicgames.gdx:gdx-box2d-platform:$gdxVersion:natives-arm64-v8a"
+        natives "com.badlogicgames.gdx:gdx-box2d-platform:$gdxVersion:natives-x86_64"
+
+        //implementation 'com.google.android.gms:play-services-games:9.4.0'
+        //implementation project(':BaseGameUtils')
+    }
+}
+
+/*project(":ios") {
+    apply plugin: "java"
+    apply plugin: "robovm"
+
+
+    dependencies {
+        implementation project(":core")
+        implementation "org.robovm:robovm-rt:$roboVMVersion"
+        implementation "org.robovm:robovm-cocoatouch:$roboVMVersion"
+        implementation "com.badlogicgames.gdx:gdx-backend-robovm:$gdxVersion"
+        implementation "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-ios"
+        implementation "com.badlogicgames.gdx:gdx-freetype-platform:$gdxVersion:natives-ios"
+        implementation "com.badlogicgames.gdx:gdx-box2d-platform:$gdxVersion:natives-ios"
+    }
+}
+*/
+
+project(":core") {
+    apply plugin: "java"
+
+
+    dependencies {
+        implementation "com.badlogicgames.gdx:gdx:$gdxVersion"
+        implementation "com.badlogicgames.gdx:gdx-freetype:$gdxVersion"
+        implementation "com.badlogicgames.gdx:gdx-box2d:$gdxVersion"
+    }
+
+    task packTextures {
+        def inputDir1 = "$rootDir/core/rawAssets/sprites"
+        def outputDir1 = "$rootDir/android/assets/images/others"
+        def inputDir2 = "$rootDir/core/rawAssets/entities"
+        def outputDir2 = "$rootDir/android/assets/images/entities"
+
+        def inputDir3 = "$rootDir/core/rawAssets/tutorial/tutorial1"
+        def outputDir3 = "$rootDir/android/assets/images/tutorial/tutorial1"
+        def inputDir4 = "$rootDir/core/rawAssets/tutorial/tutorial2"
+        def outputDir4 = "$rootDir/android/assets/images/tutorial/tutorial2"
+        def inputDir5 = "$rootDir/core/rawAssets/tutorial/tutorial3"
+        def outputDir5 = "$rootDir/android/assets/images/tutorial/tutorial3"
+        def inputDir6 = "$rootDir/core/rawAssets/tutorial/tutorial4"
+        def outputDir6 = "$rootDir/android/assets/images/tutorial/tutorial4"
+        inputs.dir inputDir1
+        outputs.dir outputDir1
+        inputs.dir inputDir2
+        outputs.dir outputDir2
+        inputs.dir inputDir3
+        outputs.dir outputDir3
+        inputs.dir inputDir4
+        outputs.dir outputDir4
+        inputs.dir inputDir5
+        outputs.dir outputDir5
+        inputs.dir inputDir6
+        outputs.dir outputDir6
+        doLast {
+            TexturePacker.Settings settings = new TexturePacker.Settings();
+            settings.maxHeight = 2048;
+            settings.maxWidth = 2048;
+            delete(outputDir1)
+            TexturePacker.process(settings, inputDir1, outputDir1, "sprites.pack")
+
+            delete(outputDir2)
+            TexturePacker.process(settings, inputDir2, outputDir2, "entities.pack")
+        }
+    }
+
+    project.tasks.compileJava.dependsOn packTextures
+}
+
+tasks.eclipse.doLast {
+    delete ".project"
+}
